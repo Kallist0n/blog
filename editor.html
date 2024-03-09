@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de Posts</title>
+</head>
+<body>
+    <h1>Editor de Posts</h1>
+    <form action="/edit" method="post">
+        <textarea name="novo_texto" rows="10" cols="50">
+            {% include 'posts.txt' %}
+        </textarea><br>
+        <button type="submit">Posts</button>
+    </form>
+</body>
+</html>
