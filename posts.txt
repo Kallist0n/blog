@@ -1,1 +1,99 @@
+<i>17/12/2022</i>
+<p><i>02:37 AM</i> vou jogar todas as informaçoes de documentos e ate a certidão do cachorro dele no gerador de senha, vai que a senha dele<br>
+seja alguma dessas coisas. enquanto o cracker esta rodando eu vou me aprofundar no reconhecimento do site pra ver se encontro mais<br>
+vulnerabilidades.
 
+<i>17/12/2022</i>
+<p><i>02:19 AM</i> o cachorro dele se chama vegeta kkkkkkkk</p>
+
+<i>17/12/2022</i>
+<p><i>01:52 AM</i> o cracker não descobriu a senha, como esperado, mas descobri bastante sobre a vida do cara, nome dele é Gabriel de Souza da Costa<br>
+o email dele é gb972245356@gmail.com, e o ouro no fim do arco-iris, o cpf 151.942.587-20 com essas informações é possivel saber praticamente<br>
+tudo da vida dele, o que ele compra, sites que acessa enfim muita coisa. vou adicionar essas informações no gerador de wordlist pra ver<br>
+se ele consegue gerar a senha e depois vou jogar no cracker.</p>
+
+<i>17/12/2022</i>
+<p><i>00:46 AM</i> encontrei qual das contas era o admin, dexei um cracker rodando pra quebrar a criptografia, mas sem saber informações<br>
+pessoais do admin fica mais dificil saber qual pode ser a senha dele, o script que rodei para procurar XSS não encontrou nada, procurei<br>
+manualmente e realmente o site não é vulneravel a XSS, enquanto o cracker roda vou fazer um OSINT no dono desse site.</p>
+
+<i>16/12/2022</i>
+<p><i>11:34 PM</i> na pagina inicial há uma barra de pesquisa, posso tentar injetar codigos, mas antes vou deixar um buscador de diretorios<br>
+rodando no meu ubuntu, não vou tentar injetar SQL quero apenas entrar no sistema mas só por curiosidade fui tentar ver se o site era vulneravel</br>
+a esse tipo de injeção, e adivinha, ERA! baixei todo o banco de dados do sistema. O unico problema era que o banco de dados é criptografado<br>
+então eu tinha que caçar o login de administrador e quebrar a criptografia da senha, vou fazer isso depois, antes vou tentar um XSS na pagina<br>
+com a barra de pesquisa, se conseguir vou injetar um reverse shell para entrar no sistema, deixei um script rodando para procurar por<br>
+algum XSS, enquanto isso vou tentar achar naquele banco de dados, que baixei, o login de administrador.</p>
+
+<i>16/12/2022</i>
+<p><i>11:16 PM</i> achei um site searchshop.com.br, é pequeno, poucos visitantes por dia, hora de hackear</p>
+ 
+<i>16/12/2022</i>
+<p><i>10:56 PM</i> vai fazer um mês que eu estou de ferias e não fiz poha nenhuma ainda, não quero atacar uma grande empresa e ficar famoso<br>
+quero me manter anonimo ate meus 30 anos, então vou procurar uma empresa pequena para invadir, não vou fazer estrago, só vou dar uma olhadinha.</p>
+
+<i>14/12/2022</i>
+<p><i>2:23 AM</i> idependentemente disso, acho que minha amiga yasmin vai começar a trabalhar em um lugar que vai fazer ela mudar de escola,<br>
+acho que nunca mais vou ver ela, ficamos tristes o dia todo. Uma coisa engraçada, toda vez que nos depedimos nos abraçamos e seguimos nossos<br>
+caminhos, mas do outro lado da rua sempre tem um cabelereiro que nos olha, as vezes ele não olha, as vezes ele nem tá lá.<br>
+quando demos o ultimo abraço foi longo, não senti que foi de fato uma despedida, o cabelereiro nem tava lá pra nos ver. quando ela disse tchau<br>
+senti um aperto no peito, a sensação de que não ia ver minha unica amiga doía, eu tava sentindo saudade e nem tinha falado tchau ainda,<br>
+meu reflexo foi apenas dizer tchau, virar e ir embora, não sei mas, acho que não vai ser a ultima vez que a gente vai se ver.</p>
+
+<i>14/12/2022</i>
+<p><i>01:47 AM</i> esqueci que eu tenho um site literalmente para contar as merdas que eu faço e desabafar. Terminei o ano, finalmente<br>
+e acho que não vou ver meus amigos de novo, julio, pedro e a yasmin. o grupo começou a quebrar desde que o anderson se mudou de escola<br>
+ele é um membro importante, ele nunca pareceu ser uma pessoa ruim, ou ter traços maldosos (ainda bem). não sou bom em ler as pessoas, elas<br>
+escondem seu verdadeiro ser, mas o anderson não perece esconder nada mas como eu disse não sou bom em ler as pessoas, esse é o problema, quero<br>
+saber o que elas escondem, seus segredos, seus sentimentos, medos, isso faz coçar uma parte da minha cabeça, que quer muito saber o que se<br>
+passa na cabeça deles, misturando isso a minha vontade de invadir a vida pessoal das pessoas só aumenta. enquanto aquela parte da minha cabeça<br>
+instiga, um pensamento só vem, "O que eles escondem?"</p>
+
+<i>14/08/2022</i>
+<p><i>16:26 PM</i> Mesmo sabendo que isso vai ser inevitável algum dia.</p>
+
+<i>14/08/2022</i>
+<p><i>16:23 PM</i> minhas habilidades de hacking são aprimoradas a cada dia que passa, não sei dizer se isso é bom ou ruim, tenho medo<br>
+de ir pro lado sombrio da força, cada vez que eu evoluo, eu começo a ceder mais ainda pro lado negro da força. Invadir contas sempre foi um desafio<br>
+pra mim, mas agora tá tão facil, a cada 10 contas eu entro com facilidade em 7. preciso tomar cuidado, não quero chegar ao ponto de começar<br>
+a hackear meus amigos e familiares.</p>
+
+<i>07/08/2022</i>
+<p><i>19:23 PM</i> não é simples! a segurança do instagram é muito bem calculada e complexa, usei todos os neuronios nessa merda<br>
+criei um simples rotacionador de IP para o instagram não bloquear o dispositivo atacante, porem tem o sistema de 2fa do instagram<br>
+que alerta o usuario sobre a invasão, mas só alerta no dia seguinte, enquanto você tá dentro da conta, voce pode alterar a senha <br>
+o email de recuperação, simplesmente roubar a conta. Assutador.</p>
+
+<i>07/08/2022</i>
+<p><i>14:23 PM</i> o acordo foi feito, cobrei barato, pedi apenas 0,00012BTC pelo cracker. ele ja enviou para minha carteira de Bitcoin<br>
+só mandar a quantia para o app da raposa, e converter para real, simples.</p>
+
+<i>07/08/2022</i>
+<p><i>14:03 PM</i> o cliente hoje não é nada confiavel, não que eu seja tambem, mas é um aleatorio na deep web pedindo<br>
+um cracker de senha do instagram, poxa duvido que ele seja um hacker bom, ele não sabe programar um simples cracker de senha?<br>
+talvez seja só um script kiddie ou alguem querendo me passar a perna, não me importo, desde que ele me pague. </p>
+
+<i>03/08/2022</i>
+<p><i>14:41</i> é foda começar o dia as 2 da tarde se eu não estivese na escola eu acordaria cedo pra um caralho<br>
+pra trabalhar no comforto do meu escritorio e fazer uma grana. Menti, não tão cedo, talvez as 7 da manha horario<br>
+perfeito pra acordar.</p>
+
+<i>03/08/2022</i>
+<p><i>14:34 PM</i> mais um dia de merda naquela poha daquela escola, não vou ficar reclamando vou só pegar um café<br>
+e começar o dia.</p>
+
+<i>12/06/2022</i>
+<p><i>4:20 AM</i> e criar um site para publicar o que estou fazendo é um otimo jeito de treinar digitação, e eu sei<br>
+que ninguem vai ler isso mesmo. Esse site tá muito bem escondido, alguem teria que tá fuçando no meu computador<br>
+pra descobrir, eu to falando de você edu, se eu ficar sabendo que tem gente fuçando o meu site eu vou tirar ele<br>
+do ar e voçê nunca mais joga no meu computador</p>
+
+<i>12/06/2022</i>
+<p><i>4:16 AM</i> falando serio, eu só programei esse site para ficar cansado e pegar no sono, ficar horas e horas<br>
+raciocinando na programação de um site é definitivamente desgastante e parecia uma boa ideia cansar o meu cerebro<br>
+mas eu não to nenhum pouco cansado. Bem acho que um diario pessoal faz bem.</p>
+
+<i>12/06/2022</i>
+<p><i>4:13 AM</i> to com uma isonia fudida, denovo, tava sozinho no meu escritorio e na falta de outra pessoa<br>
+para conversar decidi programar este site que vou chama-lo de Posts sem graça de Henrique, pois duvido que alguem<br>
+esteja interessado saber o que um nerd zé ruela ta fazendo na vida dele nesse momento</p>
