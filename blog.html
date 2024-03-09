@@ -13,7 +13,7 @@
         }
     </style>
     <h1>Blog</h1>
-    <ul id="postList"></ul>
+    <div id="postList"></div>
 
     <script>
         // URL do arquivo de texto no mesmo diretório
@@ -23,18 +23,11 @@
         fetch(url)
             .then(response => response.text())
             .then(data => {
-                // Dividir o conteúdo do arquivo em parágrafos
-                var paragraphs = data.split('\n');
+                // Selecionar o contêiner onde os posts serão exibidos
+                var postContainer = document.getElementById('postList');
 
-                // Selecionar a lista de posts
-                var postList = document.getElementById('postList');
-
-                // Adicionar cada parágrafo à lista como um item de lista
-                paragraphs.forEach(function(paragraph) {
-                    var listItem = document.createElement('p');
-                    listItem.textContent = paragraph;
-                    postList.appendChild(listItem);
-                });
+                // Inserir o conteúdo do arquivo diretamente no contêiner
+                postContainer.innerHTML = data;
             })
             .catch(error => {
                 console.error('Erro ao buscar os posts:', error);
