@@ -3,19 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Editor de Posts</title>
+    <title>Blog</title>
 </head>
 <body>
-    <h1>Editor de Posts</h1>
-    <p>Edite o conteúdo abaixo e copie e cole no arquivo posts.txt localmente:</p>
-    <textarea id="editor" rows="10" cols="50"></textarea><br>
-    <button id="saveButton">Salvar Alterações</button>
+    <h1>Blog</h1>
+    <ul id="postList"></ul>
 
     <script>
-        document.getElementById('saveButton').addEventListener('click', function() {
-            var texto = document.getElementById('editor').value;
-            alert("Copie e cole o seguinte texto no arquivo posts.txt:\n\n" + texto);
-        });
+        // URL do arquivo de texto no mesmo diretório
+        var url = 'posts.txt';
+
+        // Usar a API Fetch para buscar o conteúdo do arquivo
+        fetch(url)
+            .then(response => response.text())
+            .then(data => {
+                // Dividir o conteúdo do arquivo em parágrafos
+                var paragraphs = data.split('\n');
+
+                // Selecionar a lista de posts
+                var postList = document.getElementById('postList');
+
+                // Adicionar cada parágrafo à lista como um item de lista
+                paragraphs.forEach(function(paragraph) {
+                    var listItem = document.createElement('li');
+                    listItem.textContent = paragraph;
+                    postList.appendChild(listItem);
+                });
+            })
+            .catch(error => {
+                console.error('Erro ao buscar os posts:', error);
+            });
     </script>
 </body>
 </html>
