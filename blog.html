@@ -4,47 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        #postList {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .post {
-            background-color: #f9f9f9;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-        }
-    </style>
 </head>
 <body>
     <h1>Blog</h1>
     <ul id="postList"></ul>
 
     <script>
-        var url = 'https://blog.rickoliveira1.repl.co/posts.txt';
+        // URL do arquivo de texto no mesmo diretório
+        var url = 'posts.txt';
 
         // Usar a API Fetch para buscar o conteúdo do arquivo
         fetch(url)
             .then(response => response.text())
             .then(data => {
+                // Dividir o conteúdo do arquivo em parágrafos
                 var paragraphs = data.split('\n');
 
+                // Selecionar a lista de posts
                 var postList = document.getElementById('postList');
 
+                // Adicionar cada parágrafo à lista como um item de lista
                 paragraphs.forEach(function(paragraph) {
-                    var listItem = document.createElement('p');
-                    listItem.classList.add('post');
+                    var listItem = document.createElement('li');
                     listItem.textContent = paragraph;
                     postList.appendChild(listItem);
                 });
