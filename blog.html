@@ -11,22 +11,20 @@
         h1 {
             margin-left: 10px;
         }
+        p, i {
+        margin-left: 10px;
+        }
     </style>
     <h1>Blog</h1>
     <div id="postList"></div>
 
     <script>
-        // URL do arquivo de texto no mesmo diretório
         var url = 'posts.txt';
 
-        // Usar a API Fetch para buscar o conteúdo do arquivo
         fetch(url)
             .then(response => response.text())
             .then(data => {
-                // Selecionar o contêiner onde os posts serão exibidos
                 var postContainer = document.getElementById('postList');
-
-                // Inserir o conteúdo do arquivo diretamente no contêiner
                 postContainer.innerHTML = data;
             })
             .catch(error => {
